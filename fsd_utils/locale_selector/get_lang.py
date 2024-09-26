@@ -10,7 +10,7 @@ def get_lang():
     if language_from_query_args:
         if language_from_query_args not in ["cy", "en"]:
             current_app.logger.warning(
-                f"Invalid language code {language_from_query_args}. Supported codes are 'cy' and 'en'."
+                "Invalid language code %s. Supported codes are 'cy' and 'en'.", language_from_query_args
             )
             return "en"
         else:
