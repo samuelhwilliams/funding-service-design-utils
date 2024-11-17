@@ -81,3 +81,8 @@ basepython = python3.11
 [testenv:py312-flask{2.2,2.3,3}-sqlalchemy{1,2}]
 basepython = python3.12
 """
+
+[dependency-groups]
+dev = [
+    "ruff==0.6.7",
+]
