@@ -9,7 +9,7 @@
   "packageRules": [
     {
       "groupName": "Ruff updates",
-      "matchPackageNames": ["ruff"],
+      "matchPackageNames": ["ruff", "ruff-pre-commit"],
       "matchManagers": ["pep621", "pre-commit"]
     }
   ]
