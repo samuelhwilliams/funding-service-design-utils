@@ -4,4 +4,4 @@ pre-commit
 pytest-env>=0.6.2
 pytest
 pytest-mock
-moto[s3,sqs]==5.0.7
+moto[s3,sqs]==5.0.21
