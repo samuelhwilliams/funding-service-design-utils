@@ -9,7 +9,7 @@
   "packageRules": [
     {
       "groupName": "Ruff updates",
-      "matchPackageNames": ["ruff", "ruff-pre-commit"],
+      "matchPackageNames": ["ruff", "astral-sh/ruff-pre-commit"],
       "matchManagers": ["pep621", "pre-commit"]
     }
   ]
