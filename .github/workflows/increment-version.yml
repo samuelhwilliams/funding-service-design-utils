@@ -30,7 +30,7 @@ jobs:
 
     - name: Bump release version
       id: bump_version
-      uses: christian-draeger/increment-semantic-version@4ac542a8ebf91f4edc224cbe3a19cc086826ae77 # 1.1.0
+      uses: christian-draeger/increment-semantic-version@e336aa9669995021932c5c5543509853d19d9cbb # 1.2.1
       with:
         current-version: ${{ steps.latest_tag.outputs.tag}}
         version-fragment: 'bug'
