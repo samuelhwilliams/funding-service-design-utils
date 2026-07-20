@@ -24,7 +24,7 @@ jobs:
     permissions:
         contents: write
     steps:
-    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5
@@ -47,7 +47,7 @@ jobs:
     permissions:
         contents: write
     steps:
-    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
     - name: Setup python
       id: setup_python
       uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5
@@ -79,7 +79,7 @@ jobs:
     needs: create-release
     if: github.ref == 'refs/heads/main'
     steps:
-    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
     - name: Setup python
       id: setup_python
